@@ -7,6 +7,7 @@
 ![img.png](img.png)
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
+![img_5.png](img_5.png)
 
 **Steps to use this Microservice**
 1. Clone the project from Github using 'git clone URL'  
@@ -29,5 +30,14 @@
 14. Hit the API end point '/customers/<customerId>/rewards'(Ex: http://localhost:8080/customers/1002/rewards)
 15. Test the service using the below maven command
     'mvn test'
+#######################################################
+
+16. Implemented Spring boot actuator in the project, this will help to manage and monitor the application by using HTTP endpoints
+    mainly in production ready environment
+17. All the configuration done in application.properties file
+18. Changed the base path to /admin 
+19. Exposed the health API and all necessary informations(Eexample:Application status, DB status, DB name, Ping status )
+20. Created the unit tests for the respective data points mentioned above and executed
+21. Passed results mentioned in img_5.png (Highlighted the test result in red as a proof)
     
     
